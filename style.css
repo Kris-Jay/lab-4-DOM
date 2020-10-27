@@ -1,0 +1,17 @@
+.penny{
+    background-color: orange;
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+}
+
+
+.lightBulb {
+    width:100px;
+    height: 50px;
+    background-color: gray;
+}
+
+.yellow{
+    background-color: yellow;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Lab 4 - DOM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <p class="priceTotal">Total: $</p>
+      <button data-price="2.00" class="limeCola">LIME COLA</button>
+      <button data-price="3.00" class="saltedPeanuts">SALTED PEANUTS</button>
+      <button data-price="4.00" class="chocolateBar">CHOCOLATE BAR</button>
+      <button data-price="6.00" class="fruitGummies">FRUIT GUMMIES</button>
+    </div>
+    <div>
+        <form class="makeMoney">
+            <label for="howMany">How many?</label>
+            <input type="number" , id="howMany" , name="howMany" />
+            <label for="whichCoin">Which coin?</label>
+            <select name="whichCoin" id="whichCoin">
+              <option class="penny" value="penny">Penny</option>
+              <option class="nickel" value="nickel">Nickel</option>
+              <option class="dime" value="dime">Dime</option>
+              <option class="quarter" value="quarter">Quarter</option>
+            </select>
+            <button>Make Money!</button>
+            <p class= "displayMoney"></p>
+          </form>
+    </div>
+    <div class = "lightBulb">Light Bulb</div>
+    <button class="bulbOn">On</button>
+    <button class="bulbOff">Off</button>
+    <button class = "toggleBulb">Toggle</button>
+    <button class="endBulb">End</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
